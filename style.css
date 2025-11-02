@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(134, 0, 0);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container {
+  background: rgb(195, 123, 123);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: inline-block;
+  padding: 30px 50px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(179, 51, 0);
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+}
